@@ -31,7 +31,8 @@ class Experiment ():
 
     def add_subject(self, subject):
         self.subject = subject
+        return 
 
     def add_supervisor(self, supervisor):
         self.supervisor= supervisor
-        pass
+        return
